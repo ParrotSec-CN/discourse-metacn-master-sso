@@ -10,7 +10,7 @@ function initializeWithApi(api) {
       return helper.attach('link', {
         rawLabel: notMobile ? "捐赠" : "捐赠",
         className: 'btn btn-default btn-small stage-site-link',
-        href: "javascript:;" });
+        href: "javascript:oncl();" });
     }
   });
 }
